@@ -5,13 +5,61 @@
 }
 
 .container{
-  height: 100vh;
+  /* height: 100vh; */
   width: 900px;
   margin: auto;
-  background-color: red;
+  /* background-color: red; */
+}
+
+.clearfix::after{
+  content:'';
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+body{
+  background-color: lightgrey;
 }
 
 header{
   height: 200px;
   background-color: yellow;
+}
+
+.container main{
+  height: 100vh;
+  margin: 10px 0;
+}
+
+main .col-left{
+  height: 25%;
+  width: 25%;
+  background-color: green;
+}
+
+main .col-center{
+  height: 100%;
+  width: 50%;
+  background-color: blue;
+}
+
+main .col-right{
+  height: 25%;
+  width: 25%;
+  background-color: purple;
+}
+
+p{
+  height: 100%;
+  width: 100%;
+  background-color: orange;
+  margin-bottom: 10px;
+}
+
+footer{
+  height: 120px;
+  background-color: red;
 }
