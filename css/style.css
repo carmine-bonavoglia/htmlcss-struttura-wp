@@ -5,10 +5,8 @@
 }
 
 .container{
-  /* height: 100vh; */
   width: 900px;
   margin: auto;
-  /* background-color: red; */
 }
 
 .clearfix::after{
@@ -25,7 +23,8 @@ body{
 }
 
 header{
-  height: 200px;
+  height: 300px;
+  margin-top: 15px;
   background-color: yellow;
 }
 
@@ -35,31 +34,36 @@ header{
 }
 
 main .col-left{
-  height: 25%;
-  width: 25%;
+  height: 45%;
+  width: 20%;
   background-color: green;
+  border-radius: 5px;
 }
 
 main .col-center{
-  height: 100%;
-  width: 50%;
-  background-color: blue;
+  height: 40%;
+  width: calc(60% - 30px);
+  margin: 0 15px;
+  background-color: red;
+  border-radius: 5px;
 }
 
 main .col-right{
-  height: 25%;
-  width: 25%;
-  background-color: purple;
+  height: calc(33.3333% - 20px);
+  width: 20%;
 }
 
 p{
   height: 100%;
   width: 100%;
   background-color: orange;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 footer{
   height: 120px;
-  background-color: red;
+  margin-bottom: 15px;
+  background-color: blue;
+  border-radius: 5px;
 }
